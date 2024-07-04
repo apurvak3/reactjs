@@ -21,12 +21,12 @@ children : 'click me to visit google',
 
 }
 const anotherElement=(
-  <a href ="https://google.com" target='_blank'>Visit google</a>
+  <a href ="https://google.com" target='_blank'>Visit google</a>   //object is predefined i.e <any tag, attribute>text
 )
 
 
 ReactDOM.createRoot(document.getElementById('root')).
 render(
-  reactElement
+  anotherElement
 )
 //wwe are not able to render react element but we are able to render another element.conversion takes place

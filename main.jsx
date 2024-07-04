@@ -10,7 +10,7 @@ return(
   </div>
 )
 }
-const reactElement = {
+/*const reactElement = {
   type: 'a',
   props : { 
     href : 'https://google.com',
@@ -22,7 +22,15 @@ children : 'click me to visit google',
 }
 const anotherElement=(
   <a href ="https://google.com" target='_blank'>Visit google</a>   //object is predefined i.e <any tag, attribute>text
-)
+)*/
+const anotherElement = 'Welcome to the page'
+const reactElement = React.createElement(
+  'a',
+  {
+    href :"https://google.com",target :'_blank'
+  },
+  'click me to visit google',anotherUser
+  )
 
 
 ReactDOM.createRoot(document.getElementById('root')).

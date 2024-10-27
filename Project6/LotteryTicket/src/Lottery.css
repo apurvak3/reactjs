@@ -1,0 +1,23 @@
+.lottery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+.ticket {
+    display: center;
+    gap: 10px; /* Adds spacing between numbers */
+    font-size: 24px; /* Make numbers larger */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: green;
+}

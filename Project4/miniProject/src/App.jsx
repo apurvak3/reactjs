@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Login from './Components/Login'
 import Profile from './Components/Profile'
 import userContextProvider from './Context/userContextProvider'
-import './App.css'
+
 
 
 function App() {

@@ -13,7 +13,7 @@ function App() {
 
 
     let deleteToDo = {id} =>{
-      setNewToDo = todo.filter
+      setNewToDo = todo.filter{(todo) => todo.id != id};
     }
   };
 
